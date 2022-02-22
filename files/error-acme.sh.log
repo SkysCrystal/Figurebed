@@ -1,0 +1,411 @@
+[Tue Feb 22 00:20:01 CST 2022] Running cmd: cron
+[Tue Feb 22 00:20:01 CST 2022] Using config home:/usr/local/acme.sh
+[Tue Feb 22 00:20:02 CST 2022] default_acme_server
+[Tue Feb 22 00:20:02 CST 2022] ACME_DIRECTORY='https://acme.zerossl.com/v2/DV90'
+[Tue Feb 22 00:20:02 CST 2022] ===Starting cron===
+[Tue Feb 22 00:20:02 CST 2022] Using config home:/usr/local/acme.sh
+[Tue Feb 22 00:20:02 CST 2022] ACME_DIRECTORY='https://acme.zerossl.com/v2/DV90'
+[Tue Feb 22 00:20:02 CST 2022] _stopRenewOnError
+[Tue Feb 22 00:20:02 CST 2022] _set_level='2'
+[Tue Feb 22 00:20:02 CST 2022] di='/usr/local/nginx/conf/ssl/ql.swin.ltd/'
+[Tue Feb 22 00:20:02 CST 2022] d='ql.swin.ltd'
+[Tue Feb 22 00:20:02 CST 2022] Using config home:/usr/local/acme.sh
+[Tue Feb 22 00:20:02 CST 2022] ACME_DIRECTORY='https://acme.zerossl.com/v2/DV90'
+[Tue Feb 22 00:20:02 CST 2022] DOMAIN_PATH='/usr/local/nginx/conf/ssl/ql.swin.ltd'
+[Tue Feb 22 00:20:02 CST 2022] Renew: 'ql.swin.ltd'
+[Tue Feb 22 00:20:02 CST 2022] Le_API='https://acme-v02.api.letsencrypt.org/directory'
+[Tue Feb 22 00:20:02 CST 2022] Using config home:/usr/local/acme.sh
+[Tue Feb 22 00:20:02 CST 2022] ACME_DIRECTORY='https://acme-v02.api.letsencrypt.org/directory'
+[Tue Feb 22 00:20:02 CST 2022] Skip invalid cert for: ql.swin.ltd
+[Tue Feb 22 00:20:02 CST 2022] Return code: 2
+[Tue Feb 22 00:20:02 CST 2022] Skipped ql.swin.ltd
+[Tue Feb 22 00:20:02 CST 2022] di='/usr/local/nginx/conf/ssl/swin.ltd/'
+[Tue Feb 22 00:20:02 CST 2022] d='swin.ltd'
+[Tue Feb 22 00:20:02 CST 2022] Using config home:/usr/local/acme.sh
+[Tue Feb 22 00:20:02 CST 2022] ACME_DIRECTORY='https://acme.zerossl.com/v2/DV90'
+[Tue Feb 22 00:20:02 CST 2022] DOMAIN_PATH='/usr/local/nginx/conf/ssl/swin.ltd'
+[Tue Feb 22 00:20:02 CST 2022] Renew: 'swin.ltd'
+[Tue Feb 22 00:20:02 CST 2022] Le_API='https://acme-v02.api.letsencrypt.org/directory'
+[Tue Feb 22 00:20:02 CST 2022] Using config home:/usr/local/acme.sh
+[Tue Feb 22 00:20:02 CST 2022] ACME_DIRECTORY='https://acme-v02.api.letsencrypt.org/directory'
+[Tue Feb 22 00:20:02 CST 2022] Skip, Next renewal time is: Fri Apr 22 12:53:39 UTC 2022
+[Tue Feb 22 00:20:02 CST 2022] Add '--force' to force to renew.
+[Tue Feb 22 00:20:02 CST 2022] Return code: 2
+[Tue Feb 22 00:20:02 CST 2022] Skipped swin.ltd
+[Tue Feb 22 00:20:02 CST 2022] _error_level='3'
+[Tue Feb 22 00:20:02 CST 2022] _set_level='2'
+[Tue Feb 22 00:20:02 CST 2022] ===End cron===
+[Tue Feb 22 03:00:01 CST 2022] Running cmd: upgrade
+[Tue Feb 22 03:00:01 CST 2022] Using config home:/usr/local/acme.sh
+[Tue Feb 22 03:00:01 CST 2022] default_acme_server
+[Tue Feb 22 03:00:01 CST 2022] ACME_DIRECTORY='https://acme.zerossl.com/v2/DV90'
+[Tue Feb 22 03:00:01 CST 2022] GET
+[Tue Feb 22 03:00:01 CST 2022] url='https://api.github.com/repos/acmesh-official/acme.sh/git/refs/heads/master'
+[Tue Feb 22 03:00:01 CST 2022] timeout=
+[Tue Feb 22 03:00:01 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 03:00:02 CST 2022] ret='0'
+[Tue Feb 22 03:00:02 CST 2022] Already uptodate!
+[Tue Feb 22 03:00:02 CST 2022] Upgrade success!
+[Tue Feb 22 10:25:12 CST 2022] Running cmd: issue
+[Tue Feb 22 10:25:12 CST 2022] _main_domain='ql.swin.ltd'
+[Tue Feb 22 10:25:12 CST 2022] _alt_domains='no'
+[Tue Feb 22 10:25:12 CST 2022] Using config home:/usr/local/acme.sh
+[Tue Feb 22 10:25:12 CST 2022] ACME_DIRECTORY='https://acme-v02.api.letsencrypt.org/directory'
+[Tue Feb 22 10:25:12 CST 2022] DOMAIN_PATH='/usr/local/nginx/conf/ssl/ql.swin.ltd'
+[Tue Feb 22 10:25:12 CST 2022] Le_NextRenewTime
+[Tue Feb 22 10:25:12 CST 2022] Using ACME_DIRECTORY: https://acme-v02.api.letsencrypt.org/directory
+[Tue Feb 22 10:25:12 CST 2022] _init api for server: https://acme-v02.api.letsencrypt.org/directory
+[Tue Feb 22 10:25:12 CST 2022] GET
+[Tue Feb 22 10:25:12 CST 2022] url='https://acme-v02.api.letsencrypt.org/directory'
+[Tue Feb 22 10:25:12 CST 2022] timeout=
+[Tue Feb 22 10:25:12 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 10:25:13 CST 2022] ret='0'
+[Tue Feb 22 10:25:13 CST 2022] ACME_KEY_CHANGE='https://acme-v02.api.letsencrypt.org/acme/key-change'
+[Tue Feb 22 10:25:13 CST 2022] ACME_NEW_AUTHZ
+[Tue Feb 22 10:25:13 CST 2022] ACME_NEW_ORDER='https://acme-v02.api.letsencrypt.org/acme/new-order'
+[Tue Feb 22 10:25:13 CST 2022] ACME_NEW_ACCOUNT='https://acme-v02.api.letsencrypt.org/acme/new-acct'
+[Tue Feb 22 10:25:13 CST 2022] ACME_REVOKE_CERT='https://acme-v02.api.letsencrypt.org/acme/revoke-cert'
+[Tue Feb 22 10:25:13 CST 2022] ACME_AGREEMENT='https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf'
+[Tue Feb 22 10:25:13 CST 2022] ACME_NEW_NONCE='https://acme-v02.api.letsencrypt.org/acme/new-nonce'
+[Tue Feb 22 10:25:13 CST 2022] Using CA: https://acme-v02.api.letsencrypt.org/directory
+[Tue Feb 22 10:25:13 CST 2022] _on_before_issue
+[Tue Feb 22 10:25:13 CST 2022] _chk_main_domain='ql.swin.ltd'
+[Tue Feb 22 10:25:13 CST 2022] _chk_alt_domains
+[Tue Feb 22 10:25:13 CST 2022] Le_LocalAddress
+[Tue Feb 22 10:25:13 CST 2022] d='ql.swin.ltd'
+[Tue Feb 22 10:25:13 CST 2022] Check for domain='ql.swin.ltd'
+[Tue Feb 22 10:25:13 CST 2022] _currentRoot='/home/wwwroot/ql.swin.ltd'
+[Tue Feb 22 10:25:13 CST 2022] d
+[Tue Feb 22 10:25:13 CST 2022] _saved_account_key_hash is not changed, skip register account.
+[Tue Feb 22 10:25:13 CST 2022] Read key length:
+[Tue Feb 22 10:25:13 CST 2022] _createcsr
+[Tue Feb 22 10:25:13 CST 2022] Single domain='ql.swin.ltd'
+[Tue Feb 22 10:25:13 CST 2022] Getting domain auth token for each domain
+[Tue Feb 22 10:25:13 CST 2022] d
+[Tue Feb 22 10:25:13 CST 2022] url='https://acme-v02.api.letsencrypt.org/acme/new-order'
+[Tue Feb 22 10:25:13 CST 2022] payload='{"identifiers": [{"type":"dns","value":"ql.swin.ltd"}]}'
+[Tue Feb 22 10:25:13 CST 2022] RSA key
+[Tue Feb 22 10:25:13 CST 2022] HEAD
+[Tue Feb 22 10:25:13 CST 2022] _post_url='https://acme-v02.api.letsencrypt.org/acme/new-nonce'
+[Tue Feb 22 10:25:13 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g  -I  '
+[Tue Feb 22 10:25:15 CST 2022] _ret='0'
+[Tue Feb 22 10:25:15 CST 2022] POST
+[Tue Feb 22 10:25:15 CST 2022] _post_url='https://acme-v02.api.letsencrypt.org/acme/new-order'
+[Tue Feb 22 10:25:15 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 10:25:16 CST 2022] _ret='0'
+[Tue Feb 22 10:25:16 CST 2022] code='201'
+[Tue Feb 22 10:25:16 CST 2022] Le_LinkOrder='https://acme-v02.api.letsencrypt.org/acme/order/418941490/65900851600'
+[Tue Feb 22 10:25:16 CST 2022] Le_OrderFinalize='https://acme-v02.api.letsencrypt.org/acme/finalize/418941490/65900851600'
+[Tue Feb 22 10:25:16 CST 2022] url='https://acme-v02.api.letsencrypt.org/acme/authz-v3/80890062000'
+[Tue Feb 22 10:25:16 CST 2022] payload
+[Tue Feb 22 10:25:16 CST 2022] POST
+[Tue Feb 22 10:25:16 CST 2022] _post_url='https://acme-v02.api.letsencrypt.org/acme/authz-v3/80890062000'
+[Tue Feb 22 10:25:16 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 10:25:17 CST 2022] _ret='0'
+[Tue Feb 22 10:25:17 CST 2022] code='200'
+[Tue Feb 22 10:25:17 CST 2022] d='ql.swin.ltd'
+[Tue Feb 22 10:25:17 CST 2022] Getting webroot for domain='ql.swin.ltd'
+[Tue Feb 22 10:25:17 CST 2022] _w='/home/wwwroot/ql.swin.ltd'
+[Tue Feb 22 10:25:17 CST 2022] _currentRoot='/home/wwwroot/ql.swin.ltd'
+[Tue Feb 22 10:25:17 CST 2022] entry='"type":"http-01","status":"pending","url":"https://acme-v02.api.letsencrypt.org/acme/chall-v3/80890062000/GjoyAA","token":"nhPoGiXDLiCkkwczjRqcNF1hz6AgaYK-NBUKYOPKqFI"'
+[Tue Feb 22 10:25:17 CST 2022] token='nhPoGiXDLiCkkwczjRqcNF1hz6AgaYK-NBUKYOPKqFI'
+[Tue Feb 22 10:25:17 CST 2022] uri='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80890062000/GjoyAA'
+[Tue Feb 22 10:25:17 CST 2022] keyauthorization='nhPoGiXDLiCkkwczjRqcNF1hz6AgaYK-NBUKYOPKqFI.1RVQfTd0oP0ZPlDpDWg3fi7Wf3kFxBcHYdEdhRZZQdQ'
+[Tue Feb 22 10:25:17 CST 2022] dvlist='ql.swin.ltd#nhPoGiXDLiCkkwczjRqcNF1hz6AgaYK-NBUKYOPKqFI.1RVQfTd0oP0ZPlDpDWg3fi7Wf3kFxBcHYdEdhRZZQdQ#https://acme-v02.api.letsencrypt.org/acme/chall-v3/80890062000/GjoyAA#http-01#/home/wwwroot/ql.swin.ltd'
+[Tue Feb 22 10:25:17 CST 2022] d
+[Tue Feb 22 10:25:17 CST 2022] vlist='ql.swin.ltd#nhPoGiXDLiCkkwczjRqcNF1hz6AgaYK-NBUKYOPKqFI.1RVQfTd0oP0ZPlDpDWg3fi7Wf3kFxBcHYdEdhRZZQdQ#https://acme-v02.api.letsencrypt.org/acme/chall-v3/80890062000/GjoyAA#http-01#/home/wwwroot/ql.swin.ltd,'
+[Tue Feb 22 10:25:17 CST 2022] d='ql.swin.ltd'
+[Tue Feb 22 10:25:17 CST 2022] ok, let's start to verify
+[Tue Feb 22 10:25:17 CST 2022] Verifying: ql.swin.ltd
+[Tue Feb 22 10:25:17 CST 2022] d='ql.swin.ltd'
+[Tue Feb 22 10:25:17 CST 2022] keyauthorization='nhPoGiXDLiCkkwczjRqcNF1hz6AgaYK-NBUKYOPKqFI.1RVQfTd0oP0ZPlDpDWg3fi7Wf3kFxBcHYdEdhRZZQdQ'
+[Tue Feb 22 10:25:17 CST 2022] uri='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80890062000/GjoyAA'
+[Tue Feb 22 10:25:17 CST 2022] _currentRoot='/home/wwwroot/ql.swin.ltd'
+[Tue Feb 22 10:25:17 CST 2022] wellknown_path='/home/wwwroot/ql.swin.ltd/.well-known/acme-challenge'
+[Tue Feb 22 10:25:17 CST 2022] writing token:nhPoGiXDLiCkkwczjRqcNF1hz6AgaYK-NBUKYOPKqFI to /home/wwwroot/ql.swin.ltd/.well-known/acme-challenge/nhPoGiXDLiCkkwczjRqcNF1hz6AgaYK-NBUKYOPKqFI
+[Tue Feb 22 10:25:17 CST 2022] Changing owner/group of .well-known to www:www
+[Tue Feb 22 10:25:17 CST 2022] url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80890062000/GjoyAA'
+[Tue Feb 22 10:25:17 CST 2022] payload='{}'
+[Tue Feb 22 10:25:17 CST 2022] POST
+[Tue Feb 22 10:25:17 CST 2022] _post_url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80890062000/GjoyAA'
+[Tue Feb 22 10:25:17 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 10:25:18 CST 2022] _ret='0'
+[Tue Feb 22 10:25:18 CST 2022] code='200'
+[Tue Feb 22 10:25:18 CST 2022] trigger validation code: 200
+[Tue Feb 22 10:25:18 CST 2022] Pending, The CA is processing your order, please just wait. (1/30)
+[Tue Feb 22 10:25:18 CST 2022] sleep 2 secs to verify again
+[Tue Feb 22 10:25:20 CST 2022] checking
+[Tue Feb 22 10:25:20 CST 2022] url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80890062000/GjoyAA'
+[Tue Feb 22 10:25:20 CST 2022] payload
+[Tue Feb 22 10:25:20 CST 2022] POST
+[Tue Feb 22 10:25:20 CST 2022] _post_url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80890062000/GjoyAA'
+[Tue Feb 22 10:25:20 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 10:25:21 CST 2022] _ret='0'
+[Tue Feb 22 10:25:21 CST 2022] code='200'
+[Tue Feb 22 10:25:21 CST 2022] ql.swin.ltd:Verify error:Invalid response from http://ql.swin.ltd/.well-known/acme-challenge/nhPoGiXDLiCkkwczjRqcNF1hz6AgaYK-NBUKYOPKqFI [121.36.164.72]: 
+[Tue Feb 22 10:25:21 CST 2022] pid
+[Tue Feb 22 10:25:21 CST 2022] No need to restore nginx, skip.
+[Tue Feb 22 10:25:21 CST 2022] _clearupdns
+[Tue Feb 22 10:25:21 CST 2022] dns_entries
+[Tue Feb 22 10:25:21 CST 2022] skip dns.
+[Tue Feb 22 10:25:21 CST 2022] _on_issue_err
+[Tue Feb 22 10:25:21 CST 2022] Please check log file for more details: /usr/local/acme.sh/acme.sh.log
+[Tue Feb 22 10:25:21 CST 2022] url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80890062000/GjoyAA'
+[Tue Feb 22 10:25:21 CST 2022] payload='{}'
+[Tue Feb 22 10:25:21 CST 2022] POST
+[Tue Feb 22 10:25:21 CST 2022] _post_url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80890062000/GjoyAA'
+[Tue Feb 22 10:25:21 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 10:25:22 CST 2022] _ret='0'
+[Tue Feb 22 10:25:22 CST 2022] code='400'
+[Tue Feb 22 10:35:19 CST 2022] Running cmd: issue
+[Tue Feb 22 10:35:19 CST 2022] _main_domain='ql.swin.ltd'
+[Tue Feb 22 10:35:19 CST 2022] _alt_domains='no'
+[Tue Feb 22 10:35:19 CST 2022] Using config home:/usr/local/acme.sh
+[Tue Feb 22 10:35:19 CST 2022] ACME_DIRECTORY='https://acme-v02.api.letsencrypt.org/directory'
+[Tue Feb 22 10:35:19 CST 2022] DOMAIN_PATH='/usr/local/nginx/conf/ssl/ql.swin.ltd'
+[Tue Feb 22 10:35:19 CST 2022] Le_NextRenewTime
+[Tue Feb 22 10:35:19 CST 2022] Using ACME_DIRECTORY: https://acme-v02.api.letsencrypt.org/directory
+[Tue Feb 22 10:35:19 CST 2022] _init api for server: https://acme-v02.api.letsencrypt.org/directory
+[Tue Feb 22 10:35:19 CST 2022] GET
+[Tue Feb 22 10:35:19 CST 2022] url='https://acme-v02.api.letsencrypt.org/directory'
+[Tue Feb 22 10:35:19 CST 2022] timeout=
+[Tue Feb 22 10:35:19 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 10:35:21 CST 2022] ret='0'
+[Tue Feb 22 10:35:21 CST 2022] ACME_KEY_CHANGE='https://acme-v02.api.letsencrypt.org/acme/key-change'
+[Tue Feb 22 10:35:21 CST 2022] ACME_NEW_AUTHZ
+[Tue Feb 22 10:35:21 CST 2022] ACME_NEW_ORDER='https://acme-v02.api.letsencrypt.org/acme/new-order'
+[Tue Feb 22 10:35:21 CST 2022] ACME_NEW_ACCOUNT='https://acme-v02.api.letsencrypt.org/acme/new-acct'
+[Tue Feb 22 10:35:21 CST 2022] ACME_REVOKE_CERT='https://acme-v02.api.letsencrypt.org/acme/revoke-cert'
+[Tue Feb 22 10:35:21 CST 2022] ACME_AGREEMENT='https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf'
+[Tue Feb 22 10:35:21 CST 2022] ACME_NEW_NONCE='https://acme-v02.api.letsencrypt.org/acme/new-nonce'
+[Tue Feb 22 10:35:21 CST 2022] Using CA: https://acme-v02.api.letsencrypt.org/directory
+[Tue Feb 22 10:35:21 CST 2022] _on_before_issue
+[Tue Feb 22 10:35:21 CST 2022] _chk_main_domain='ql.swin.ltd'
+[Tue Feb 22 10:35:21 CST 2022] _chk_alt_domains
+[Tue Feb 22 10:35:21 CST 2022] Le_LocalAddress
+[Tue Feb 22 10:35:21 CST 2022] d='ql.swin.ltd'
+[Tue Feb 22 10:35:21 CST 2022] Check for domain='ql.swin.ltd'
+[Tue Feb 22 10:35:21 CST 2022] _currentRoot='/home/wwwroot/ql.swin.ltd'
+[Tue Feb 22 10:35:21 CST 2022] d
+[Tue Feb 22 10:35:21 CST 2022] _saved_account_key_hash is not changed, skip register account.
+[Tue Feb 22 10:35:21 CST 2022] Read key length:
+[Tue Feb 22 10:35:21 CST 2022] _createcsr
+[Tue Feb 22 10:35:21 CST 2022] Single domain='ql.swin.ltd'
+[Tue Feb 22 10:35:21 CST 2022] Getting domain auth token for each domain
+[Tue Feb 22 10:35:21 CST 2022] d
+[Tue Feb 22 10:35:21 CST 2022] url='https://acme-v02.api.letsencrypt.org/acme/new-order'
+[Tue Feb 22 10:35:21 CST 2022] payload='{"identifiers": [{"type":"dns","value":"ql.swin.ltd"}]}'
+[Tue Feb 22 10:35:21 CST 2022] RSA key
+[Tue Feb 22 10:35:21 CST 2022] HEAD
+[Tue Feb 22 10:35:21 CST 2022] _post_url='https://acme-v02.api.letsencrypt.org/acme/new-nonce'
+[Tue Feb 22 10:35:21 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g  -I  '
+[Tue Feb 22 10:35:22 CST 2022] _ret='0'
+[Tue Feb 22 10:35:22 CST 2022] POST
+[Tue Feb 22 10:35:22 CST 2022] _post_url='https://acme-v02.api.letsencrypt.org/acme/new-order'
+[Tue Feb 22 10:35:22 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 10:35:23 CST 2022] _ret='0'
+[Tue Feb 22 10:35:23 CST 2022] code='201'
+[Tue Feb 22 10:35:23 CST 2022] Le_LinkOrder='https://acme-v02.api.letsencrypt.org/acme/order/418941490/65902839020'
+[Tue Feb 22 10:35:23 CST 2022] Le_OrderFinalize='https://acme-v02.api.letsencrypt.org/acme/finalize/418941490/65902839020'
+[Tue Feb 22 10:35:23 CST 2022] url='https://acme-v02.api.letsencrypt.org/acme/authz-v3/80892461810'
+[Tue Feb 22 10:35:23 CST 2022] payload
+[Tue Feb 22 10:35:23 CST 2022] POST
+[Tue Feb 22 10:35:23 CST 2022] _post_url='https://acme-v02.api.letsencrypt.org/acme/authz-v3/80892461810'
+[Tue Feb 22 10:35:23 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 10:35:24 CST 2022] _ret='0'
+[Tue Feb 22 10:35:24 CST 2022] code='200'
+[Tue Feb 22 10:35:24 CST 2022] d='ql.swin.ltd'
+[Tue Feb 22 10:35:24 CST 2022] Getting webroot for domain='ql.swin.ltd'
+[Tue Feb 22 10:35:24 CST 2022] _w='/home/wwwroot/ql.swin.ltd'
+[Tue Feb 22 10:35:24 CST 2022] _currentRoot='/home/wwwroot/ql.swin.ltd'
+[Tue Feb 22 10:35:24 CST 2022] entry='"type":"http-01","status":"pending","url":"https://acme-v02.api.letsencrypt.org/acme/chall-v3/80892461810/uyD3wQ","token":"IfhPK3M_pgUE1YRRe0DEKlBYX1KHx3LyV9S6b5Hf22w"'
+[Tue Feb 22 10:35:24 CST 2022] token='IfhPK3M_pgUE1YRRe0DEKlBYX1KHx3LyV9S6b5Hf22w'
+[Tue Feb 22 10:35:24 CST 2022] uri='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80892461810/uyD3wQ'
+[Tue Feb 22 10:35:24 CST 2022] keyauthorization='IfhPK3M_pgUE1YRRe0DEKlBYX1KHx3LyV9S6b5Hf22w.1RVQfTd0oP0ZPlDpDWg3fi7Wf3kFxBcHYdEdhRZZQdQ'
+[Tue Feb 22 10:35:24 CST 2022] dvlist='ql.swin.ltd#IfhPK3M_pgUE1YRRe0DEKlBYX1KHx3LyV9S6b5Hf22w.1RVQfTd0oP0ZPlDpDWg3fi7Wf3kFxBcHYdEdhRZZQdQ#https://acme-v02.api.letsencrypt.org/acme/chall-v3/80892461810/uyD3wQ#http-01#/home/wwwroot/ql.swin.ltd'
+[Tue Feb 22 10:35:24 CST 2022] d
+[Tue Feb 22 10:35:24 CST 2022] vlist='ql.swin.ltd#IfhPK3M_pgUE1YRRe0DEKlBYX1KHx3LyV9S6b5Hf22w.1RVQfTd0oP0ZPlDpDWg3fi7Wf3kFxBcHYdEdhRZZQdQ#https://acme-v02.api.letsencrypt.org/acme/chall-v3/80892461810/uyD3wQ#http-01#/home/wwwroot/ql.swin.ltd,'
+[Tue Feb 22 10:35:24 CST 2022] d='ql.swin.ltd'
+[Tue Feb 22 10:35:24 CST 2022] ok, let's start to verify
+[Tue Feb 22 10:35:24 CST 2022] Verifying: ql.swin.ltd
+[Tue Feb 22 10:35:24 CST 2022] d='ql.swin.ltd'
+[Tue Feb 22 10:35:24 CST 2022] keyauthorization='IfhPK3M_pgUE1YRRe0DEKlBYX1KHx3LyV9S6b5Hf22w.1RVQfTd0oP0ZPlDpDWg3fi7Wf3kFxBcHYdEdhRZZQdQ'
+[Tue Feb 22 10:35:24 CST 2022] uri='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80892461810/uyD3wQ'
+[Tue Feb 22 10:35:24 CST 2022] _currentRoot='/home/wwwroot/ql.swin.ltd'
+[Tue Feb 22 10:35:24 CST 2022] wellknown_path='/home/wwwroot/ql.swin.ltd/.well-known/acme-challenge'
+[Tue Feb 22 10:35:24 CST 2022] writing token:IfhPK3M_pgUE1YRRe0DEKlBYX1KHx3LyV9S6b5Hf22w to /home/wwwroot/ql.swin.ltd/.well-known/acme-challenge/IfhPK3M_pgUE1YRRe0DEKlBYX1KHx3LyV9S6b5Hf22w
+[Tue Feb 22 10:35:24 CST 2022] Changing owner/group of .well-known to www:www
+[Tue Feb 22 10:35:24 CST 2022] url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80892461810/uyD3wQ'
+[Tue Feb 22 10:35:24 CST 2022] payload='{}'
+[Tue Feb 22 10:35:24 CST 2022] POST
+[Tue Feb 22 10:35:24 CST 2022] _post_url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80892461810/uyD3wQ'
+[Tue Feb 22 10:35:24 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 10:35:25 CST 2022] _ret='0'
+[Tue Feb 22 10:35:25 CST 2022] code='200'
+[Tue Feb 22 10:35:25 CST 2022] trigger validation code: 200
+[Tue Feb 22 10:35:25 CST 2022] Pending, The CA is processing your order, please just wait. (1/30)
+[Tue Feb 22 10:35:25 CST 2022] sleep 2 secs to verify again
+[Tue Feb 22 10:35:27 CST 2022] checking
+[Tue Feb 22 10:35:27 CST 2022] url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80892461810/uyD3wQ'
+[Tue Feb 22 10:35:27 CST 2022] payload
+[Tue Feb 22 10:35:27 CST 2022] POST
+[Tue Feb 22 10:35:27 CST 2022] _post_url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80892461810/uyD3wQ'
+[Tue Feb 22 10:35:27 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 10:35:28 CST 2022] _ret='0'
+[Tue Feb 22 10:35:28 CST 2022] code='200'
+[Tue Feb 22 10:35:28 CST 2022] ql.swin.ltd:Verify error:Invalid response from http://ql.swin.ltd/.well-known/acme-challenge/IfhPK3M_pgUE1YRRe0DEKlBYX1KHx3LyV9S6b5Hf22w [121.36.164.72]: 
+[Tue Feb 22 10:35:28 CST 2022] pid
+[Tue Feb 22 10:35:28 CST 2022] No need to restore nginx, skip.
+[Tue Feb 22 10:35:28 CST 2022] _clearupdns
+[Tue Feb 22 10:35:28 CST 2022] dns_entries
+[Tue Feb 22 10:35:28 CST 2022] skip dns.
+[Tue Feb 22 10:35:28 CST 2022] _on_issue_err
+[Tue Feb 22 10:35:28 CST 2022] Please check log file for more details: /usr/local/acme.sh/acme.sh.log
+[Tue Feb 22 10:35:28 CST 2022] url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80892461810/uyD3wQ'
+[Tue Feb 22 10:35:28 CST 2022] payload='{}'
+[Tue Feb 22 10:35:28 CST 2022] POST
+[Tue Feb 22 10:35:28 CST 2022] _post_url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80892461810/uyD3wQ'
+[Tue Feb 22 10:35:28 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 10:35:29 CST 2022] _ret='0'
+[Tue Feb 22 10:35:29 CST 2022] code='400'
+[Tue Feb 22 11:04:17 CST 2022] Running cmd: issue
+[Tue Feb 22 11:04:17 CST 2022] _main_domain='ql.swin.ltd'
+[Tue Feb 22 11:04:17 CST 2022] _alt_domains='no'
+[Tue Feb 22 11:04:17 CST 2022] Using config home:/usr/local/acme.sh
+[Tue Feb 22 11:04:17 CST 2022] ACME_DIRECTORY='https://acme-v02.api.letsencrypt.org/directory'
+[Tue Feb 22 11:04:17 CST 2022] DOMAIN_PATH='/usr/local/nginx/conf/ssl/ql.swin.ltd'
+[Tue Feb 22 11:04:17 CST 2022] Le_NextRenewTime
+[Tue Feb 22 11:04:17 CST 2022] Using ACME_DIRECTORY: https://acme-v02.api.letsencrypt.org/directory
+[Tue Feb 22 11:04:17 CST 2022] _init api for server: https://acme-v02.api.letsencrypt.org/directory
+[Tue Feb 22 11:04:17 CST 2022] GET
+[Tue Feb 22 11:04:17 CST 2022] url='https://acme-v02.api.letsencrypt.org/directory'
+[Tue Feb 22 11:04:17 CST 2022] timeout=
+[Tue Feb 22 11:04:17 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 11:04:20 CST 2022] ret='0'
+[Tue Feb 22 11:04:20 CST 2022] ACME_KEY_CHANGE='https://acme-v02.api.letsencrypt.org/acme/key-change'
+[Tue Feb 22 11:04:20 CST 2022] ACME_NEW_AUTHZ
+[Tue Feb 22 11:04:20 CST 2022] ACME_NEW_ORDER='https://acme-v02.api.letsencrypt.org/acme/new-order'
+[Tue Feb 22 11:04:20 CST 2022] ACME_NEW_ACCOUNT='https://acme-v02.api.letsencrypt.org/acme/new-acct'
+[Tue Feb 22 11:04:20 CST 2022] ACME_REVOKE_CERT='https://acme-v02.api.letsencrypt.org/acme/revoke-cert'
+[Tue Feb 22 11:04:20 CST 2022] ACME_AGREEMENT='https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf'
+[Tue Feb 22 11:04:20 CST 2022] ACME_NEW_NONCE='https://acme-v02.api.letsencrypt.org/acme/new-nonce'
+[Tue Feb 22 11:04:20 CST 2022] Using CA: https://acme-v02.api.letsencrypt.org/directory
+[Tue Feb 22 11:04:20 CST 2022] _on_before_issue
+[Tue Feb 22 11:04:20 CST 2022] _chk_main_domain='ql.swin.ltd'
+[Tue Feb 22 11:04:20 CST 2022] _chk_alt_domains
+[Tue Feb 22 11:04:20 CST 2022] Le_LocalAddress
+[Tue Feb 22 11:04:20 CST 2022] d='ql.swin.ltd'
+[Tue Feb 22 11:04:20 CST 2022] Check for domain='ql.swin.ltd'
+[Tue Feb 22 11:04:20 CST 2022] _currentRoot='/home/wwwroot/ql.swin.ltd'
+[Tue Feb 22 11:04:20 CST 2022] d
+[Tue Feb 22 11:04:20 CST 2022] _saved_account_key_hash is not changed, skip register account.
+[Tue Feb 22 11:04:20 CST 2022] Read key length:
+[Tue Feb 22 11:04:20 CST 2022] _createcsr
+[Tue Feb 22 11:04:20 CST 2022] Single domain='ql.swin.ltd'
+[Tue Feb 22 11:04:20 CST 2022] Getting domain auth token for each domain
+[Tue Feb 22 11:04:20 CST 2022] d
+[Tue Feb 22 11:04:20 CST 2022] url='https://acme-v02.api.letsencrypt.org/acme/new-order'
+[Tue Feb 22 11:04:20 CST 2022] payload='{"identifiers": [{"type":"dns","value":"ql.swin.ltd"}]}'
+[Tue Feb 22 11:04:20 CST 2022] RSA key
+[Tue Feb 22 11:04:20 CST 2022] HEAD
+[Tue Feb 22 11:04:20 CST 2022] _post_url='https://acme-v02.api.letsencrypt.org/acme/new-nonce'
+[Tue Feb 22 11:04:20 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g  -I  '
+[Tue Feb 22 11:04:21 CST 2022] _ret='0'
+[Tue Feb 22 11:04:21 CST 2022] POST
+[Tue Feb 22 11:04:21 CST 2022] _post_url='https://acme-v02.api.letsencrypt.org/acme/new-order'
+[Tue Feb 22 11:04:21 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 11:04:22 CST 2022] _ret='0'
+[Tue Feb 22 11:04:22 CST 2022] code='201'
+[Tue Feb 22 11:04:22 CST 2022] Le_LinkOrder='https://acme-v02.api.letsencrypt.org/acme/order/418941490/65908281050'
+[Tue Feb 22 11:04:22 CST 2022] Le_OrderFinalize='https://acme-v02.api.letsencrypt.org/acme/finalize/418941490/65908281050'
+[Tue Feb 22 11:04:22 CST 2022] url='https://acme-v02.api.letsencrypt.org/acme/authz-v3/80899070900'
+[Tue Feb 22 11:04:22 CST 2022] payload
+[Tue Feb 22 11:04:22 CST 2022] POST
+[Tue Feb 22 11:04:22 CST 2022] _post_url='https://acme-v02.api.letsencrypt.org/acme/authz-v3/80899070900'
+[Tue Feb 22 11:04:22 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 11:04:23 CST 2022] _ret='0'
+[Tue Feb 22 11:04:23 CST 2022] code='200'
+[Tue Feb 22 11:04:23 CST 2022] d='ql.swin.ltd'
+[Tue Feb 22 11:04:23 CST 2022] Getting webroot for domain='ql.swin.ltd'
+[Tue Feb 22 11:04:23 CST 2022] _w='/home/wwwroot/ql.swin.ltd'
+[Tue Feb 22 11:04:23 CST 2022] _currentRoot='/home/wwwroot/ql.swin.ltd'
+[Tue Feb 22 11:04:23 CST 2022] entry='"type":"http-01","status":"pending","url":"https://acme-v02.api.letsencrypt.org/acme/chall-v3/80899070900/sd7Cgw","token":"z93Bs5OYmBnhFNcnfhqXDMFRJI_94kXeHwXvo7EmGKs"'
+[Tue Feb 22 11:04:23 CST 2022] token='z93Bs5OYmBnhFNcnfhqXDMFRJI_94kXeHwXvo7EmGKs'
+[Tue Feb 22 11:04:23 CST 2022] uri='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80899070900/sd7Cgw'
+[Tue Feb 22 11:04:23 CST 2022] keyauthorization='z93Bs5OYmBnhFNcnfhqXDMFRJI_94kXeHwXvo7EmGKs.1RVQfTd0oP0ZPlDpDWg3fi7Wf3kFxBcHYdEdhRZZQdQ'
+[Tue Feb 22 11:04:23 CST 2022] dvlist='ql.swin.ltd#z93Bs5OYmBnhFNcnfhqXDMFRJI_94kXeHwXvo7EmGKs.1RVQfTd0oP0ZPlDpDWg3fi7Wf3kFxBcHYdEdhRZZQdQ#https://acme-v02.api.letsencrypt.org/acme/chall-v3/80899070900/sd7Cgw#http-01#/home/wwwroot/ql.swin.ltd'
+[Tue Feb 22 11:04:23 CST 2022] d
+[Tue Feb 22 11:04:23 CST 2022] vlist='ql.swin.ltd#z93Bs5OYmBnhFNcnfhqXDMFRJI_94kXeHwXvo7EmGKs.1RVQfTd0oP0ZPlDpDWg3fi7Wf3kFxBcHYdEdhRZZQdQ#https://acme-v02.api.letsencrypt.org/acme/chall-v3/80899070900/sd7Cgw#http-01#/home/wwwroot/ql.swin.ltd,'
+[Tue Feb 22 11:04:23 CST 2022] d='ql.swin.ltd'
+[Tue Feb 22 11:04:23 CST 2022] ok, let's start to verify
+[Tue Feb 22 11:04:23 CST 2022] Verifying: ql.swin.ltd
+[Tue Feb 22 11:04:23 CST 2022] d='ql.swin.ltd'
+[Tue Feb 22 11:04:23 CST 2022] keyauthorization='z93Bs5OYmBnhFNcnfhqXDMFRJI_94kXeHwXvo7EmGKs.1RVQfTd0oP0ZPlDpDWg3fi7Wf3kFxBcHYdEdhRZZQdQ'
+[Tue Feb 22 11:04:23 CST 2022] uri='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80899070900/sd7Cgw'
+[Tue Feb 22 11:04:23 CST 2022] _currentRoot='/home/wwwroot/ql.swin.ltd'
+[Tue Feb 22 11:04:23 CST 2022] wellknown_path='/home/wwwroot/ql.swin.ltd/.well-known/acme-challenge'
+[Tue Feb 22 11:04:23 CST 2022] writing token:z93Bs5OYmBnhFNcnfhqXDMFRJI_94kXeHwXvo7EmGKs to /home/wwwroot/ql.swin.ltd/.well-known/acme-challenge/z93Bs5OYmBnhFNcnfhqXDMFRJI_94kXeHwXvo7EmGKs
+[Tue Feb 22 11:04:23 CST 2022] Changing owner/group of .well-known to www:www
+[Tue Feb 22 11:04:23 CST 2022] url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80899070900/sd7Cgw'
+[Tue Feb 22 11:04:23 CST 2022] payload='{}'
+[Tue Feb 22 11:04:23 CST 2022] POST
+[Tue Feb 22 11:04:23 CST 2022] _post_url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80899070900/sd7Cgw'
+[Tue Feb 22 11:04:23 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 11:04:24 CST 2022] _ret='0'
+[Tue Feb 22 11:04:24 CST 2022] code='200'
+[Tue Feb 22 11:04:24 CST 2022] trigger validation code: 200
+[Tue Feb 22 11:04:24 CST 2022] Pending, The CA is processing your order, please just wait. (1/30)
+[Tue Feb 22 11:04:24 CST 2022] sleep 2 secs to verify again
+[Tue Feb 22 11:04:26 CST 2022] checking
+[Tue Feb 22 11:04:26 CST 2022] url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80899070900/sd7Cgw'
+[Tue Feb 22 11:04:26 CST 2022] payload
+[Tue Feb 22 11:04:26 CST 2022] POST
+[Tue Feb 22 11:04:26 CST 2022] _post_url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80899070900/sd7Cgw'
+[Tue Feb 22 11:04:26 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 11:04:26 CST 2022] _ret='0'
+[Tue Feb 22 11:04:26 CST 2022] code='200'
+[Tue Feb 22 11:04:27 CST 2022] Pending, The CA is processing your order, please just wait. (2/30)
+[Tue Feb 22 11:04:27 CST 2022] sleep 2 secs to verify again
+[Tue Feb 22 11:04:29 CST 2022] checking
+[Tue Feb 22 11:04:29 CST 2022] url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80899070900/sd7Cgw'
+[Tue Feb 22 11:04:29 CST 2022] payload
+[Tue Feb 22 11:04:29 CST 2022] POST
+[Tue Feb 22 11:04:29 CST 2022] _post_url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80899070900/sd7Cgw'
+[Tue Feb 22 11:04:29 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 11:04:29 CST 2022] _ret='0'
+[Tue Feb 22 11:04:29 CST 2022] code='200'
+[Tue Feb 22 11:04:29 CST 2022] Pending, The CA is processing your order, please just wait. (3/30)
+[Tue Feb 22 11:04:29 CST 2022] sleep 2 secs to verify again
+[Tue Feb 22 11:04:31 CST 2022] checking
+[Tue Feb 22 11:04:31 CST 2022] url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80899070900/sd7Cgw'
+[Tue Feb 22 11:04:31 CST 2022] payload
+[Tue Feb 22 11:04:31 CST 2022] POST
+[Tue Feb 22 11:04:31 CST 2022] _post_url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80899070900/sd7Cgw'
+[Tue Feb 22 11:04:31 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 11:04:32 CST 2022] _ret='0'
+[Tue Feb 22 11:04:32 CST 2022] code='200'
+[Tue Feb 22 11:04:32 CST 2022] Pending, The CA is processing your order, please just wait. (4/30)
+[Tue Feb 22 11:04:32 CST 2022] sleep 2 secs to verify again
+[Tue Feb 22 11:04:34 CST 2022] checking
+[Tue Feb 22 11:04:34 CST 2022] url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80899070900/sd7Cgw'
+[Tue Feb 22 11:04:34 CST 2022] payload
+[Tue Feb 22 11:04:34 CST 2022] POST
+[Tue Feb 22 11:04:34 CST 2022] _post_url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80899070900/sd7Cgw'
+[Tue Feb 22 11:04:34 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 11:04:35 CST 2022] _ret='0'
+[Tue Feb 22 11:04:35 CST 2022] code='200'
+[Tue Feb 22 11:04:35 CST 2022] ql.swin.ltd:Verify error:Fetching http://ql.swin.ltd/.well-known/acme-challenge/z93Bs5OYmBnhFNcnfhqXDMFRJI_94kXeHwXvo7EmGKs: Timeout during connect (likely firewall problem)
+[Tue Feb 22 11:04:35 CST 2022] pid
+[Tue Feb 22 11:04:35 CST 2022] No need to restore nginx, skip.
+[Tue Feb 22 11:04:35 CST 2022] _clearupdns
+[Tue Feb 22 11:04:35 CST 2022] dns_entries
+[Tue Feb 22 11:04:35 CST 2022] skip dns.
+[Tue Feb 22 11:04:36 CST 2022] _on_issue_err
+[Tue Feb 22 11:04:36 CST 2022] Please check log file for more details: /usr/local/acme.sh/acme.sh.log
+[Tue Feb 22 11:04:36 CST 2022] url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80899070900/sd7Cgw'
+[Tue Feb 22 11:04:36 CST 2022] payload='{}'
+[Tue Feb 22 11:04:36 CST 2022] POST
+[Tue Feb 22 11:04:36 CST 2022] _post_url='https://acme-v02.api.letsencrypt.org/acme/chall-v3/80899070900/sd7Cgw'
+[Tue Feb 22 11:04:36 CST 2022] _CURL='curl --silent --dump-header /usr/local/acme.sh/http.header  -L  -g '
+[Tue Feb 22 11:04:36 CST 2022] _ret='0'
+[Tue Feb 22 11:04:36 CST 2022] code='400'
